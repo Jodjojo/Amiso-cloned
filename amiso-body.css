@@ -1,0 +1,247 @@
+.left-image-container {
+  overflow: hidden;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 10px;
+}
+
+.middle-div-container {
+  position: absolute;
+  height: 254px;
+  width: 200px;
+  /* border-color: red;
+  border-width: 2px;
+  border-style: solid; */
+  top: 80px;
+  left: 360px;
+  border-radius: 8px;
+  box-shadow: 0 0 6px 6px white;
+  z-index: 90;
+  overflow: hidden;
+}
+
+.right-div-container {
+  /* border-color: rgb(0, 255, 72);
+  border-width: 2px;
+  border-style: solid; */
+  height: 497.219px;
+  width: 40%;
+  padding-left: 70px;
+  position: relative;
+  margin-right: auto;
+  white-space: nowrap;
+}
+
+.left-div-container {
+  height: 497.22px;
+  /* border-color: rgb(47, 0, 255);
+  border-width: 2px;
+  border-style: solid; */
+  margin-left: auto;
+  /* margin-right: -100px; */
+  position: relative;
+  width: 40%;
+  overflow: hidden;
+}
+
+.overall-inner-div {
+  height: 539.38px;
+  /* border-color: rgb(255, 55, 0);
+  border-width: 2px;
+  border-style: solid; */
+  padding-top: 120px;
+  padding-bottom: 200px;
+  /* padding-left: 50px; */
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding-right: 50px; */
+  display: flex;
+  flex-direction: row;
+  z-index: 2;
+  position: relative;
+}
+
+.call-help {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.phone {
+  display: inline-block;
+  border: solid;
+  border-color: rgb(237 240 245);
+  border-radius: 34px;
+  border-width: 1px;
+  /* margin-top: 20px; */
+  background-color: rgb(237 240 245);
+  height: 68px;
+  width: 68px;
+  position: relative;
+}
+
+.phone-image {
+  height: 30px;
+  color: red;
+  background-color: rgb(237 240 245);
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  display: inline-block;
+}
+
+.call-anytime {
+  margin-left: 80px;
+  white-space: nowrap;
+  font-size: 22px;
+  padding: 8px 0;
+  /* padding-left: 90px; */
+  color: rgb(24 24 24);
+  text-align: left;
+  font-weight: 700;
+  white-space: nowrap;
+  line-height: 20px;
+  margin-right: 30px;
+}
+
+.call-text {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  color: #6a6a6a;
+  margin-bottom: -10px;
+}
+
+.explore-2 {
+  border-style: solid;
+  border-color: #ff3838;
+  color: white;
+  background-color: #ff3838;
+  font-size: 16px;
+  padding: 15px 50px;
+  overflow: hidden;
+  border-radius: 10px;
+  filter: brightness(120%);
+  display: inline-block;
+  white-space: nowrap;
+  position: absolute;
+  top: 10px;
+  margin-left: 20%;
+  display: none;
+}
+
+.anytime {
+  position: absolute;
+  bottom: -120px;
+  left: 30%;
+  /* border-color: rgb(47, 0, 255); */
+  /* border-width: 2px;
+  border-style: solid; */
+  margin-top: 500px;
+}
+
+@media (max-width: 1023px) {
+  .overall-inner-div {
+    width: 100%;
+    z-index: 2;
+    position: relative;
+    margin-top: -15%;
+    display: block;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .left-div-container {
+    width: 100%;
+    position: absolute;
+    bottom: -20%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    left: 0;
+  }
+
+  .left-image-container {
+    min-width: none;
+    width: max-content;
+    height: max-content;
+  }
+
+  .middle-div-container {
+    display: none;
+  }
+
+  .right-div-container {
+    height: 497.219px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding-left: 0;
+  }
+
+  .call-help {
+    margin-top: 20px;
+    display: inline-block;
+  }
+
+  .phone {
+    height: 60px;
+    width: 60px;
+    display: block;
+  }
+
+  .phone-image {
+    height: 24px;
+    color: red;
+    background-color: rgb(237 240 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .call-text {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6a6a6a;
+    margin-bottom: -10px;
+  }
+
+  .explore-2 {
+    display: inline-block;
+    position: absolute;
+  }
+
+  .anytime {
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    right: 10%;
+    white-space: nowrap;
+    text-align: center;
+  }
+
+  h6 {
+    font-size: 46px;
+    color: black;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    line-height: 1.2em;
+    text-align: center;
+    padding-top: 8px;
+  }
+  h2 {
+    font-size: 46px;
+    color: black;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-top: -8px;
+  }
+  #any-tag {
+    text-align: left;
+    position: absolute;
+    left: 30%;
+  }
+}

@@ -1,0 +1,425 @@
+.help-header {
+  height: 44px;
+  z-index: 90;
+  position: relative;
+  margin-top: 54px;
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.help-left-group {
+  display: flex;
+  margin-left: 18px;
+  justify-items: center;
+  align-items: center;
+  flex: 1;
+  font-size: 14px;
+  color: rgb(143, 143, 143);
+  filter: brightness(130%);
+}
+
+.mail-icon {
+  height: 10px;
+  padding-top: 4px;
+  margin-right: 10px;
+}
+
+.location-icon {
+  height: 16px;
+  margin-right: 8px;
+  padding-right: 4px;
+}
+
+.need-header {
+  display: flex;
+  margin-right: 20px;
+}
+
+.address-header {
+  display: flex;
+  flex: 1;
+  white-space: nowrap;
+  margin-left: -2px;
+}
+
+.icons-header-group {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  align-items: center;
+}
+
+.support-contact {
+  flex: 2;
+  text-align: center;
+  font-size: 14px;
+  color: rgb(128, 130, 135);
+  padding-left: 5%;
+}
+.support-space {
+  margin-left: 3%;
+  margin-right: 5%;
+}
+.slash {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icons {
+  color: white;
+  flex: 1;
+  margin-left: -20px;
+  margin-right: 20px;
+}
+.empty {
+  flex: 1;
+}
+.overlay-picture {
+  position: relative;
+  height: 870px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.overlay-picture-div {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: block;
+  visibility: inherit;
+  opacity: 1;
+  filter: brightness(40%);
+}
+
+.amiso-div {
+  position: absolute;
+  top: 0;
+  z-index: 20;
+  border-width: 2px;
+  border-style: solid;
+  height: 85px;
+  width: 100%;
+  display: flex;
+  color: rgb(111, 111, 111);
+  align-items: center;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.left-amiso-div {
+  /* border-width: 2px;
+  border-style: solid; */
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  /* filter: brightness(30%);- */
+  margin-right: 200px;
+  position: absolute;
+  left: 2%;
+}
+.head-icons {
+  height: 15px;
+  background-color: rgb(5, 4, 4);
+  margin-left: 6%;
+  margin-right: 6%;
+}
+.middle-amiso-div {
+  align-items: center;
+  justify-content: center;
+  color: white;
+  line-height: 30px;
+  text-align: center;
+  box-sizing: border-box;
+  padding-right: 150px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 35%;
+  font-size: 16px;
+}
+
+.right-amiso-div {
+  border-left-width: 1px;
+  border-left-color: white;
+  border-left-style: groove;
+  margin-left: 130px;
+  height: 45px;
+  position: absolute;
+  right: 5%;
+}
+
+.website-agency {
+  position: absolute;
+  top: 180px;
+  left: 54px;
+}
+
+.back-page {
+  background-color: rgb(34, 33, 33);
+  top: 45%;
+  position: absolute;
+  width: 40px;
+  z-index: 80;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  box-sizing: border-box;
+  box-shadow: 0.2px 0.2px white;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.foward-page {
+  background-color: rgb(34, 33, 33);
+  top: 45%;
+  right: 0;
+  position: absolute;
+  width: 40px;
+  z-index: 80;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  box-sizing: border-box;
+  box-shadow: 0.2px 0.2px white;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.explore-now {
+  position: absolute;
+  border-style: solid;
+  border-color: red;
+  color: white;
+  top: 550px;
+  left: 60px;
+  z-index: 90;
+  background-color: rgb(226, 5, 5);
+  font-size: 16px;
+  padding: 15px 50px;
+  overflow: hidden;
+  border-radius: 10px;
+  filter: brightness(120%);
+}
+
+#menu-id {
+  height: 10px;
+  display: none;
+}
+
+h1 {
+  position: relative;
+  color: white;
+  display: block;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 1em;
+  filter: brightness(90%);
+  font-size: 90px;
+}
+
+@media (max-width: 1028px) {
+  .help-header {
+    height: 44px;
+    z-index: 90;
+    position: relative;
+    margin-top: 54px;
+    color: white;
+    background-color: black;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+    display: none;
+  }
+
+  .help-left-group {
+    display: flex;
+    margin-left: 18px;
+    justify-items: center;
+    align-items: center;
+    flex: 1;
+    font-size: 14px;
+    color: rgb(143, 143, 143);
+    filter: brightness(130%);
+  }
+
+  .mail-icon {
+    height: 10px;
+    padding-top: 4px;
+    margin-right: 10px;
+  }
+
+  .location-icon {
+    height: 16px;
+    margin-right: 8px;
+    padding-right: 4px;
+  }
+
+  .need-header {
+    display: flex;
+    margin-right: 20px;
+  }
+
+  .address-header {
+    display: flex;
+    flex: 1;
+    white-space: nowrap;
+    margin-left: -2px;
+  }
+
+  .icons-header-group {
+    display: none;
+    align-items: center;
+  }
+
+  .support-contact {
+    flex: 2;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(128, 130, 135);
+    padding-left: 5%;
+  }
+  .support-space {
+    margin-left: 3%;
+    margin-right: 5%;
+  }
+  .slash {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .icons {
+    color: white;
+    flex: 1;
+    margin-left: -20px;
+    margin-right: 20px;
+  }
+  .empty {
+    flex: 1;
+  }
+  .overlay-picture {
+    position: relative;
+    height: 870px;
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+  }
+
+  .overlay-picture-div {
+    height: 667px;
+    width: 100%;
+    background-size: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+    visibility: inherit;
+    opacity: 1;
+    filter: brightness(40%);
+  }
+  img.overlay-picture-div {
+    transform: scale(1.9, 1);
+  }
+
+  #menu-id {
+    height: 20px;
+    /* display: ; */
+  }
+
+  #search-id {
+    padding-right: 15px;
+  }
+  .amiso-div {
+    position: absolute;
+    top: 54px;
+    z-index: 20;
+    border-width: 2px;
+    border-style: solid;
+    height: 85px;
+    width: 100%;
+    display: flex;
+    color: rgb(69, 69, 69);
+    align-items: center;
+    padding: 0 20px;
+    cursor: pointer;
+    /* filter: brightness(30%); */
+  }
+
+  .head-icons {
+    height: 15px;
+    background-color: rgb(5, 4, 4);
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+  .middle-amiso-div {
+    align-items: center;
+    justify-content: center;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-right: 150px;
+    display: none;
+    position: absolute;
+    left: 35%;
+    font-size: 16px;
+  }
+
+  .right-amiso-div {
+    /* border-left-width: 1px;
+    border-left-color: white;
+    border-left-style: groove; */
+    margin-left: 130px;
+    height: 45px;
+    position: absolute;
+    right: 0;
+    margin-right: 10%;
+  }
+
+  .website-agency {
+    position: absolute;
+    top: 200px;
+    left: 40px;
+  }
+
+  .back-page {
+    display: none;
+  }
+
+  .foward-page {
+    display: none;
+  }
+
+  h1 {
+    position: relative;
+    color: white;
+    display: block;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 1.2em;
+    filter: brightness(90%);
+    font-size: 58px;
+    margin-left: -20px;
+  }
+
+  .explore-now {
+    position: absolute;
+    border-style: solid;
+    border-color: red;
+    color: white;
+    top: 480px;
+    left: 20px;
+    z-index: 90;
+    background-color: rgb(226, 5, 5);
+    font-size: 16px;
+    padding: 15px 50px;
+    overflow: hidden;
+    border-radius: 10px;
+    filter: brightness(120%);
+  }
+}

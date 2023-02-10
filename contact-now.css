@@ -1,0 +1,329 @@
+.overall-contact-section {
+  height: 630px;
+  width: 100%;
+  /* border-color: rgb(123, 12, 12);
+  border-width: 2px;
+  border-style: solid; */
+  margin-top: 120px;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-contact-section {
+  flex: 1;
+  /* border-color: rgb(123, 12, 12);
+  border-width: 2px;
+  border-style: solid; */
+  position: relative;
+  display: block;
+  text-align: center;
+  margin-left: -6%;
+}
+
+.right-contact-section {
+  flex: 1;
+  /* border-color: rgb(123, 12, 12);
+  border-width: 2px;
+  border-style: solid; */
+  overflow: hidden;
+  position: relative;
+}
+
+.left-content-contact {
+  height: 523px;
+  width: 573px;
+  /* border-color: rgb(217, 207, 202);
+  border-width: 2px;
+  border-style: solid; */
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.name-div {
+  height: 60px;
+  width: 240px;
+  position: absolute;
+  left: 4%;
+  top: 25%;
+  background-color: rgb(244, 244, 244);
+  border: none;
+  padding-left: 30px;
+  border-radius: 10px;
+}
+
+.name-div::placeholder {
+  font-size: 14px;
+}
+
+.mail-div {
+  height: 60px;
+  width: 240px;
+  position: absolute;
+  right: -2%;
+  top: 25%;
+  background-color: rgb(244, 244, 244);
+  border: none;
+  padding-left: 30px;
+  border-radius: 10px;
+}
+
+.mail-div::placeholder {
+  font-size: 14px;
+}
+
+.phone-div {
+  height: 60px;
+  width: 240px;
+  position: absolute;
+  right: -2%;
+  top: 40%;
+  background-color: rgb(244, 244, 244);
+  border: none;
+  padding-left: 30px;
+  border-radius: 10px;
+}
+.phone-div::placeholder {
+  font-size: 14px;
+}
+
+.subject-div {
+  height: 60px;
+  width: 240px;
+  position: absolute;
+  left: 4%;
+  top: 40%;
+  background-color: rgb(244, 244, 244);
+  border: none;
+  padding-left: 30px;
+  border-radius: 10px;
+}
+.subject-div::placeholder {
+  font-size: 14px;
+}
+
+.message-div {
+  height: 150px;
+  width: 530px;
+  position: absolute;
+  left: 4%;
+  top: 55%;
+  background-color: rgb(244, 244, 244);
+  border: none;
+  padding-left: 30px;
+  border-radius: 10px;
+}
+
+.message-div::placeholder {
+  font-size: 14px;
+}
+
+.contact-image {
+  margin-left: 70px;
+  z-index: 70;
+  position: absolute;
+  right: 0;
+  left: 1%;
+}
+
+.design-contact {
+  height: 570px;
+  width: 92%;
+  position: absolute;
+  /* border-color: rgb(18, 7, 2);
+  border-width: 2px;
+  border-style: solid; */
+  bottom: 0;
+  right: 0;
+  color: red;
+  background-color: red;
+  z-index: 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.message-btn {
+  border-style: solid;
+  border-color: #ff3838;
+  color: white;
+  background-color: #ff3838;
+  font-size: 16px;
+  padding: 15px 50px;
+  overflow: hidden;
+  border-radius: 10px;
+  filter: brightness(120%);
+  display: inline-block;
+  white-space: nowrap;
+  margin-left: 10px;
+  position: absolute;
+  left: 2.5%;
+  bottom: 1%;
+}
+
+.contact-btn {
+  border-style: solid;
+  border-color: #f5f5f5;
+  color: rgb(0, 0, 0);
+  background-color: #fbf5f5;
+  font-size: 16px;
+  padding: 15px 50px;
+  overflow: hidden;
+  border-radius: 10px;
+  filter: brightness(120%);
+  display: inline-block;
+  white-space: nowrap;
+  margin-left: 10px;
+  position: absolute;
+  right: 8%;
+  bottom: 45%;
+}
+
+.solutions-div {
+  height: 290px;
+  width: 100%;
+  background-color: #ff3838;
+  margin-top: -18px;
+  z-index: 80;
+  position: relative;
+}
+
+#solution-text {
+  text-align: left;
+  color: white;
+  padding-top: 5%;
+  padding-left: 9%;
+}
+
+#contact-id {
+  position: absolute;
+  left: 8%;
+}
+
+#contact-header {
+  position: absolute;
+  left: 8%;
+}
+
+@media (max-width: 1023px) {
+  .overall-contact-section {
+    height: 630px;
+    width: 100%;
+    /* border-color: rgb(123, 12, 12);
+    border-width: 2px;
+    border-style: solid; */
+    margin-top: 0;
+    display: grid;
+    flex-direction: row;
+  }
+
+  .left-contact-section {
+    flex: 1;
+    /* border-color: rgb(123, 12, 12);
+    border-width: 2px;
+    border-style: solid; */
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-left: -6%;
+  }
+  .left-content-contact {
+    height: 523px;
+    width: 573px;
+    display: flex;
+    flex-direction: row;
+
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  .right-contact-section {
+    flex: 1;
+    overflow: visible;
+    position: relative;
+    margin-top: 300px;
+  }
+
+  .contact-image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95vw;
+    border-radius: 15px;
+  }
+  .design-contact {
+    display: none;
+  }
+
+  .solutions-div {
+    height: 300px;
+    width: 100%;
+    background-color: #ff3838;
+    margin-top: 800px;
+    z-index: 80;
+    position: relative;
+  }
+
+  #solution-text {
+    text-align: center;
+    white-space: nowrap;
+    font-size: 34px;
+    padding-left: 0;
+    padding-top: 12%;
+  }
+
+  .contact-btn {
+    bottom: 15%;
+    left: 35%;
+    right: 38%;
+  }
+  .name-div {
+    height: 60px;
+    width: 80vw;
+    position: absolute;
+    left: 4%;
+    top: 25%;
+    background-color: rgb(244, 244, 244);
+    border: none;
+    padding-left: 30px;
+    border-radius: 10px;
+  }
+
+  .mail-div {
+    height: 60px;
+    width: 80vw;
+    position: absolute;
+    left: 4%;
+    top: 40%;
+    background-color: rgb(244, 244, 244);
+    border: none;
+    padding-left: 30px;
+    border-radius: 10px;
+  }
+
+  .subject-div {
+    position: absolute;
+    left: 4%;
+    top: 55%;
+    width: 80vw;
+  }
+
+  .phone-div {
+    position: absolute;
+    left: 4%;
+    top: 70%;
+    width: 80vw;
+  }
+
+  .message-div {
+    position: absolute;
+    left: 4%;
+    top: 85%;
+    width: 80vw;
+  }
+
+  .message-btn {
+    position: absolute;
+    left: 2.5%;
+    bottom: -30%;
+  }
+}

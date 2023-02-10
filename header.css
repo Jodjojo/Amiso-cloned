@@ -1,0 +1,128 @@
+.preview-header {
+  background-color: rgb(38, 38, 38);
+  height: 54px;
+  width: 100%;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: grey;
+  color: rgb(84, 84, 84);
+}
+
+.envato-name {
+  display: block;
+  height: 18px;
+  position: absolute;
+  bottom: 18px;
+  top: 0;
+  width: 152px;
+  font-size: 23px;
+  height: 18px;
+  line-height: 54px;
+  color: white;
+  left: 30px;
+}
+
+.envato-name-name {
+  position: absolute;
+  left: 10px;
+}
+.buy-now {
+  position: absolute;
+  top: 10px;
+  right: 18px;
+  color: white;
+  background-color: rgb(27, 154, 27);
+  padding-right: 14px;
+  padding-left: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 4px;
+}
+
+.market-name {
+  color: rgb(4, 205, 4);
+  filter: brightness(150%);
+  position: absolute;
+  left: 80px;
+}
+
+.envato-logo-name {
+  width: 10%;
+  position: absolute;
+  left: -7px;
+  top: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  min-height: 100%;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+@media (max-width: 1023px) {
+  .preview-header {
+    background-color: rgb(44, 44, 44);
+    width: 100vw;
+    height: 54px;
+    border-bottom-width: none;
+    border-bottom-style: none;
+    border-bottom-color: none;
+  }
+
+  .envato-name {
+    display: block;
+    height: 18px;
+    position: absolute;
+    bottom: 18px;
+    top: 0;
+    width: 20%;
+    font-size: 12px;
+    height: 18px;
+    line-height: 54px;
+    color: white;
+    left: 30px;
+  }
+
+  .envato-name-name {
+    position: absolute;
+    left: 12px;
+    font-size: 24px;
+  }
+  .buy-now {
+    position: absolute;
+    top: 10px;
+    /* margin-right: 7%; */
+  }
+
+  .market-name {
+    color: rgb(4, 205, 4);
+    filter: brightness(150%);
+    position: absolute;
+    /* left: 27%; */
+    font-size: 24px;
+    padding-left: 8px;
+  }
+
+  .envato-logo-name {
+    width: 10%;
+    position: absolute;
+    left: -4px;
+    top: 20px;
+  }
+}
