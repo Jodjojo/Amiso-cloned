@@ -1,0 +1,68 @@
+#and {
+  color: red;
+}
+
+#home {
+  font-size: 18px;
+  font-family: Monrope;
+  font-weight: 700;
+  color: white;
+  line-height: 30px;
+}
+
+#pages {
+  padding-left: 44px;
+  font-size: 18px;
+  font-family: Monrope;
+  font-weight: 700;
+  color: white;
+  line-height: 30px;
+}
+
+#services {
+  padding-left: 44px;
+  font-size: 18px;
+  font-family: Monrope;
+  font-weight: 700;
+  color: white;
+  line-height: 30px;
+}
+
+#shop {
+  padding-left: 44px;
+  font-size: 18px;
+  font-family: Monrope;
+  font-weight: 700;
+  color: white;
+  line-height: 30px;
+}
+
+#news {
+  padding-left: 44px;
+  font-size: 18px;
+  font-family: Monrope;
+  font-weight: 700;
+  color: white;
+  line-height: 30px;
+}
+
+#Get {
+  padding-left: 44px;
+  font-size: 18px;
+  font-family: Monrope;
+  font-weight: 700;
+  color: white;
+  line-height: 30px;
+}
+
+#search-id {
+  height: 20px;
+  color: white;
+  border: none;
+  padding-top: 16px;
+  padding-left: 24px;
+  filter: brightness(180%);
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
