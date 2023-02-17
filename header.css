@@ -107,14 +107,12 @@ html {
 	.buy-now {
 		position: absolute;
 		top: 10px;
-		/* margin-right: 7%; */
 	}
 
 	.market-name {
 		color: rgb(4, 205, 4);
 		filter: brightness(150%);
 		position: absolute;
-		/* left: 27%; */
 		font-size: 24px;
 		padding-left: 8px;
 	}
@@ -242,12 +240,9 @@ html {
 }
 
 .left-amiso-div {
-	/* border-width: 2px;
-  border-style: solid; */
 	align-items: center;
 	justify-content: center;
 	padding: 10px 0;
-	/* filter: brightness(30%);- */
 	margin-right: 200px;
 	position: absolute;
 	left: 2%;
@@ -362,9 +357,6 @@ h1 {
 		margin-top: 54px;
 		color: white;
 		background-color: black;
-		/* display: flex;
-    flex-direction: row;
-    justify-content: space-between; */
 		display: none;
 	}
 
@@ -458,7 +450,6 @@ h1 {
 
 	#menu-id {
 		height: 20px;
-		/* display: ; */
 	}
 
 	#search-id {
@@ -477,7 +468,6 @@ h1 {
 		align-items: center;
 		padding: 0 20px;
 		cursor: pointer;
-		/* filter: brightness(30%); */
 	}
 
 	.head-icons {
@@ -501,9 +491,6 @@ h1 {
 	}
 
 	.right-amiso-div {
-		/* border-left-width: 1px;
-    border-left-color: white;
-    border-left-style: groove; */
 		margin-left: 130px;
 		height: 45px;
 		position: absolute;
@@ -566,9 +553,6 @@ h1 {
 	position: absolute;
 	height: 254px;
 	width: 200px;
-	/* border-color: red;
-  border-width: 2px;
-  border-style: solid; */
 	top: 80px;
 	left: 360px;
 	border-radius: 8px;
@@ -578,9 +562,6 @@ h1 {
 }
 
 .right-div-container {
-	/* border-color: rgb(0, 255, 72);
-  border-width: 2px;
-  border-style: solid; */
 	height: 497.219px;
 	width: 40%;
 	padding-left: 70px;
@@ -591,11 +572,7 @@ h1 {
 
 .left-div-container {
 	height: 497.22px;
-	/* border-color: rgb(47, 0, 255);
-  border-width: 2px;
-  border-style: solid; */
 	margin-left: auto;
-	/* margin-right: -100px; */
 	position: relative;
 	width: 40%;
 	overflow: hidden;
@@ -603,16 +580,11 @@ h1 {
 
 .overall-inner-div {
 	height: 539.38px;
-	/* border-color: rgb(255, 55, 0);
-  border-width: 2px;
-  border-style: solid; */
 	padding-top: 120px;
 	padding-bottom: 200px;
-	/* padding-left: 50px; */
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	/* padding-right: 50px; */
 	display: flex;
 	flex-direction: row;
 	z-index: 2;
@@ -630,7 +602,6 @@ h1 {
 	border-color: rgb(237 240 245);
 	border-radius: 34px;
 	border-width: 1px;
-	/* margin-top: 20px; */
 	background-color: rgb(237 240 245);
 	height: 68px;
 	width: 68px;
@@ -691,9 +662,6 @@ h1 {
 	position: absolute;
 	bottom: -120px;
 	left: 30%;
-	/* border-color: rgb(47, 0, 255); */
-	/* border-width: 2px;
-  border-style: solid; */
 	margin-top: 500px;
 }
 
@@ -816,15 +784,9 @@ h1 {
 .overall-company {
 	width: 100%;
 	height: 664px;
-	/* border-color: rgb(31, 34, 31);
-  border-width: 2px;
-  border-style: solid; */
 	margin-top: 150px;
-	/* display: flex; */
 	overflow: hidden;
 	position: relative;
-	/* display: grid;
-  grid-template-columns: 1fr 1fr; */
 }
 
 .left-company-container {
@@ -838,10 +800,6 @@ h1 {
 }
 
 .right-company-container {
-	/* flex: 1; */
-	/* border-color: rgb(31, 34, 31);
-  border-width: 2px;
-  border-style: solid; */
 	margin-right: auto;
 	top: 0;
 	right: 7%;
@@ -966,11 +924,8 @@ h1 {
 		width: 100vw;
 		height: max-content;
 		margin-top: 500px;
-		/* display: flex; */
 		overflow: visible;
 		position: relative;
-		/* display: grid;
-    grid-template-columns: 1fr 1fr; */
 	}
 
 	.left-company-container {
@@ -980,14 +935,9 @@ h1 {
 		top: 600px;
 		width: 40vw;
 		left: 5vw;
-		/* display: none; */
 	}
 
 	.right-company-container {
-		/* flex: 1; */
-		/* border-color: rgb(31, 34, 31);
-  border-width: 2px;
-  border-style: solid; */
 		margin-right: auto;
 		margin-left: auto;
 		width: 80vw;
@@ -1017,7 +967,6 @@ h1 {
 		height: fit-content;
 		width: 40vw;
 		position: absolute;
-		/* bottom: 10vw; */
 		left: 2vw;
 		border-color: rgb(255, 255, 255);
 		border-width: 2px;
@@ -1041,7 +990,6 @@ h1 {
 		position: absolute;
 		bottom: 0%;
 		left: 10%;
-		/* right: 10%; */
 		display: inline-block;
 		border-style: solid;
 		border-color: #ff3838;
@@ -1082,9 +1030,6 @@ h1 {
 .overall-contact-section {
 	height: 630px;
 	width: 100%;
-	/* border-color: rgb(123, 12, 12);
-  border-width: 2px;
-  border-style: solid; */
 	margin-top: 120px;
 	display: flex;
 	flex-direction: row;
@@ -1092,9 +1037,6 @@ h1 {
 
 .left-contact-section {
 	flex: 1;
-	/* border-color: rgb(123, 12, 12);
-  border-width: 2px;
-  border-style: solid; */
 	position: relative;
 	display: block;
 	text-align: center;
@@ -1113,9 +1055,6 @@ h1 {
 .left-content-contact {
 	height: 523px;
 	width: 573px;
-	/* border-color: rgb(217, 207, 202);
-  border-width: 2px;
-  border-style: solid; */
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
@@ -1211,9 +1150,6 @@ h1 {
 	height: 570px;
 	width: 92%;
 	position: absolute;
-	/* border-color: rgb(18, 7, 2);
-  border-width: 2px;
-  border-style: solid; */
 	bottom: 0;
 	right: 0;
 	color: red;
@@ -1289,9 +1225,6 @@ h1 {
 	.overall-contact-section {
 		height: 630px;
 		width: 100vw;
-		/* border-color: rgb(123, 12, 12);
-    border-width: 2px;
-    border-style: solid; */
 		margin-top: 0;
 		display: grid;
 		flex-direction: row;
@@ -1299,9 +1232,6 @@ h1 {
 
 	.left-contact-section {
 		flex: 1;
-		/* border-color: rgb(123, 12, 12);
-    border-width: 2px;
-    border-style: solid; */
 		position: relative;
 		display: block;
 		text-align: center;
@@ -1411,6 +1341,190 @@ h1 {
 		position: absolute;
 		left: 5%;
 		font-size: 36px;
+		white-space: normal;
+	}
+}
+
+/* Experienced Designers */
+.experience-total {
+	position: relative;
+	margin-top: 130px;
+}
+
+.left-side-ex {
+	height: 909px;
+	width: 100%;
+	display: inline-block;
+	position: relative;
+	background-color: rgb(244, 242, 242);
+}
+
+.right-side-ex {
+	position: absolute;
+	height: 670px;
+	width: 60%;
+	right: 0;
+	top: 120px;
+	overflow: hidden;
+}
+
+.middle-side-ex {
+	width: 475px;
+	height: 670px;
+	position: absolute;
+	top: 120px;
+	left: 50px;
+}
+
+.experienced-writings {
+	display: flex;
+	flex-direction: column;
+	margin-top: -80px;
+}
+
+.writing-1 {
+	padding-bottom: 24px;
+	border-bottom-style: solid;
+	border-bottom-color: rgb(204, 204, 204);
+	border-bottom-width: 1px;
+	display: inline-block;
+	padding-left: 90px;
+	position: relative;
+}
+
+.writing-2 {
+	padding-bottom: 24px;
+	border-bottom-style: solid;
+	border-bottom-color: rgb(204, 204, 204);
+	border-bottom-width: 1px;
+	display: inline-block;
+	padding-left: 90px;
+	position: relative;
+}
+
+.writing-3 {
+	padding-bottom: 24px;
+	display: inline-block;
+	padding-left: 90px;
+	position: relative;
+}
+.checkbox-write {
+	position: absolute;
+	left: -1px;
+	top: 45px;
+	border: solid;
+	border-color: red;
+	background-color: red;
+	padding: 20px 20px;
+	border-radius: 40px;
+}
+
+.check-mark {
+	height: 15px;
+	width: 20px;
+	z-index: 20;
+	color: white;
+}
+#experienced {
+	text-align: left;
+	font-size: 42px;
+	margin-top: -30px;
+}
+
+@media (max-width: 1023px) {
+	.experience-total {
+		position: relative;
+		margin-top: 1250px;
+		width: 95vw;
+	}
+
+	.left-side-ex {
+		height: 909px;
+		width: 100vw;
+		display: inline-block;
+		position: relative;
+		background-color: rgb(244, 242, 242);
+	}
+
+	.right-side-ex {
+		position: absolute;
+		vertical-align: middle;
+		left: 10vw;
+		width: 87vw;
+		overflow: hidden;
+		top: 900px;
+		display: flex;
+		justify-content: right;
+	}
+
+	.middle-side-ex {
+		width: 95vw;
+		height: 670px;
+		position: absolute;
+		top: 120px;
+		left: 50px;
+	}
+
+	.experienced-writings {
+		display: flex;
+		flex-direction: column;
+		margin-top: -80px;
+	}
+
+	.writing-1 {
+		padding-bottom: 24px;
+		border-bottom-style: solid;
+		border-bottom-color: rgb(204, 204, 204);
+		border-bottom-width: 1px;
+		display: inline-block;
+		padding-left: 50px;
+		position: relative;
+		width: 70vw;
+	}
+
+	.writing-2 {
+		padding-bottom: 24px;
+		border-bottom-style: solid;
+		border-bottom-color: rgb(204, 204, 204);
+		border-bottom-width: 1px;
+		display: inline-block;
+		padding-left: 50px;
+		position: relative;
+		width: 70vw;
+	}
+
+	.writing-3 {
+		padding-bottom: 24px;
+		display: inline-block;
+		padding-left: 50px;
+		position: relative;
+		width: 70vw;
+	}
+
+	h4 {
+		text-align: left;
+	}
+	.checkbox-write {
+		position: absolute;
+		left: -5%;
+		top: 45px;
+		border: solid;
+		border-color: red;
+		background-color: red;
+		padding: 10px 10px;
+		border-radius: 40px;
+	}
+
+	.check-mark {
+		height: 15px;
+		width: 20px;
+		z-index: 20;
+		color: white;
+	}
+	#experienced {
+		text-align: left;
+		font-size: 36px;
+		margin-top: -30px;
 		white-space: normal;
 	}
 }
