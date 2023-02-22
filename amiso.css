@@ -1735,9 +1735,6 @@ h1 {
 	.overall-FAQ-container {
 		height: max-content;
 		width: 100vw;
-		/* border-color: rgb(31, 34, 31);
-    border-width: 2px;
-    border-style: solid; */
 		overflow: visible;
 		display: inline-block;
 		text-align: center;
