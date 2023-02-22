@@ -250,6 +250,18 @@ html {
 .head-icons {
 	height: 15px;
 	background-color: rgb(5, 4, 4);
+	margin-left: 4%;
+	margin-right: 6%;
+	transition: background-color 0.5s;
+}
+
+.head-icons:hover {
+	background-color: #ff3838;
+}
+
+.head-icons-1 {
+	height: 15px;
+	background-color: rgb(5, 4, 4);
 	margin-left: 0%;
 	margin-right: 6%;
 	border-width: 20px;
@@ -257,8 +269,7 @@ html {
 	border-radius: 50%;
 	transition: background-color 0.5s;
 }
-
-.head-icons:hover {
+.head-icons-1:hover {
 	background-color: rgb(241, 49, 49);
 }
 .middle-amiso-div {
@@ -1396,7 +1407,7 @@ h1 {
 .right-side-ex {
 	position: absolute;
 	height: 670px;
-	width: 60%;
+	width: 58vw;
 	right: 0;
 	top: 120px;
 	overflow: hidden;
@@ -1451,6 +1462,11 @@ h1 {
 	background-color: red;
 	padding: 20px 20px;
 	border-radius: 40px;
+	transition: background-color ease 0.25s;
+}
+
+.checkbox-write:hover {
+	background-color: white;
 }
 
 .check-mark {
@@ -1458,6 +1474,10 @@ h1 {
 	width: 20px;
 	z-index: 20;
 	color: white;
+}
+
+.checkbox-write:hover .check-mark {
+	color: red;
 }
 #experienced {
 	text-align: left;
@@ -1578,7 +1598,7 @@ h1 {
 	height: 415px;
 	position: absolute;
 	top: 30%;
-	left: 10%;
+	left: 5vw;
 	z-index: 50;
 	display: grid;
 	grid-template-rows: 2fr 1fr 1fr;
@@ -1628,7 +1648,7 @@ h1 {
 	height: 415px;
 	position: absolute;
 	top: 30%;
-	right: 8%;
+	right: 5vw;
 	opacity: 1;
 }
 
@@ -1896,6 +1916,27 @@ h6 {
 	font-weight: 700;
 	color: white;
 	line-height: 30px;
+	position: relative;
+	display: inline-block;
+	margin-right: 44px;
+}
+
+#home::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: 0px;
+	left: 0;
+	background-color: #ff5050db;
+	transform-origin: bottom left;
+	transition: transform 0.25s ease-out;
+}
+
+#home:hover::after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
 }
 
 #pages {
@@ -1960,19 +2001,12 @@ h6 {
 	height: 750px;
 	width: 100%;
 	overflow: hidden;
-	/* border-color: rgb(123, 12, 12);
-  border-width: 2px;
-  border-style: solid; */
 	position: relative;
 }
 
 .news-overall-container {
 	height: 485px;
 	width: 100%;
-	/* overflow: hidden; */
-	/* border-color: rgb(123, 12, 12);
-  border-width: 2px;
-  border-style: solid; */
 	position: absolute;
 }
 
@@ -2045,17 +2079,11 @@ h6 {
 	font-size: 12px;
 }
 .div-2-news {
-	/* border-color: rgb(123, 12, 12);
-  border-width: 2px;
-  border-style: solid; */
 	border-radius: 15px;
 	overflow: hidden;
 }
 
 .div-3-news {
-	/* border-color: rgb(123, 12, 12);
-  border-width: 2px;
-  border-style: solid; */
 	border-radius: 15px;
 	overflow: hidden;
 }
@@ -2108,13 +2136,6 @@ h6 {
 	left: 12%;
 	top: 42%;
 }
-/* 
-.fa-long-arrow-alt-right::before {
-  height: 100px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-} */
 
 @media (max-width: 1023px) {
 	.news-overall-container {
@@ -2457,10 +2478,7 @@ h6 {
 }
 .contact-subscribe {
 	height: 237px;
-	width: 15%;
-	/* border-color: rgb(123, 12, 12);
-  border-width: 2px;
-  border-style: solid; */
+	width: 18vw;
 	position: absolute;
 	left: 76%;
 }
@@ -2529,6 +2547,25 @@ h6 {
 	font-size: 15px;
 	display: block;
 	font-family: Manrope, sans-serif;
+	display: inline-block;
+}
+
+#explore-text::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 1px;
+	bottom: -10px;
+	left: 0;
+	background-color: #db0b0b9b;
+	transform-origin: bottom left;
+	transition: transform 0.25s ease-out;
+}
+
+#explore-text:hover::after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
 }
 
 #contact-text {
@@ -3046,8 +3083,8 @@ h4 {
 
 .read-more {
 	position: absolute;
-	bottom: 65px;
-	left: 17%;
+	bottom: 35px;
+	left: 12%;
 	border-width: 1px;
 	border-color: white;
 	box-sizing: border-box;
@@ -3360,6 +3397,10 @@ h4 {
 	overflow: hidden;
 }
 
+.bottom-div:hover .bottom-images {
+	animation-play-state: paused;
+}
+
 .bottom-images {
 	height: 293px;
 	width: 270px;
@@ -3369,7 +3410,7 @@ h4 {
 	border-width: 2px;
 	border-style: solid;
 	transition: filter 5ms;
-	animation: imagesroll 30s 1 ease 50s forwards;
+	animation: imagesroll 50s infinite ease 30s forwards;
 }
 
 .bottom-images:hover {
