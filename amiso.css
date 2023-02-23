@@ -1,62 +1,68 @@
+/* STICKY HEADER */
+
 .preview-header {
-	background-color: rgb(38, 38, 38);
-	height: 54px;
-	width: 100%;
+	background-color: white;
+	height: 60px;
+	width: 100vw;
 	box-sizing: border-box;
 	position: fixed;
 	top: 0;
 	right: 0;
 	left: 0;
 	z-index: 100;
+	align-items: center;
 	border-bottom-width: 2px;
 	border-bottom-style: solid;
-	border-bottom-color: grey;
-	color: rgb(84, 84, 84);
+	border-bottom-color: rgb(255, 244, 244);
+	color: rgb(8, 5, 5);
 }
 
-.envato-name {
-	display: block;
-	height: 18px;
+.left-header-div {
+	align-items: center;
+	justify-content: center;
+	padding: 10px 0;
+	margin-right: 200px;
 	position: absolute;
-	bottom: 18px;
-	top: 0;
-	width: 152px;
-	font-size: 23px;
-	height: 18px;
-	line-height: 54px;
-	color: white;
-	left: 30px;
+	left: 5vw;
 }
 
-.envato-name-name {
+.right-header-div {
+	color: rgb(0, 0, 0);
+	line-height: 30px;
+	text-align: center;
+	box-sizing: border-box;
+	padding-right: 10px;
+	display: flex;
+	flex-direction: row;
 	position: absolute;
-	left: 10px;
+	top: 30%;
+	right: 0vw;
+	font-size: 16px;
 }
-.buy-now {
-	position: absolute;
-	top: 10px;
-	right: 18px;
-	color: white;
-	background-color: rgb(27, 154, 27);
-	padding-right: 14px;
-	padding-left: 14px;
-	padding-top: 8px;
-	padding-bottom: 8px;
-	border-radius: 4px;
+#home- {
+	font-size: 18px;
+	font-family: Monrope;
+	font-weight: 700;
+	color: #707070;
+	line-height: 30px;
+	position: relative;
+	display: inline-block;
+	margin-right: 34px;
+	transition: color ease 0.2s;
 }
 
-.market-name {
-	color: rgb(4, 205, 4);
-	filter: brightness(150%);
-	position: absolute;
-	left: 80px;
+#home-- {
+	font-size: 18px;
+	font-family: Monrope;
+	font-weight: 700;
+	line-height: 30px;
+	position: relative;
+	display: inline-block;
+	margin-right: 34px;
+	color: #ff3838;
 }
-
-.envato-logo-name {
-	width: 10%;
-	position: absolute;
-	left: -7px;
-	top: 20px;
+#home-:hover {
+	color: #ff3838;
 }
 
 body {
@@ -77,44 +83,16 @@ html {
 
 @media (max-width: 1023px) {
 	.preview-header {
-		background-color: rgb(44, 44, 44);
+		background-color: rgb(250, 250, 250);
 		width: 100vw;
-		height: 54px;
+		height: 60px;
 		border-bottom-width: none;
 		border-bottom-style: none;
 		border-bottom-color: none;
 	}
 
-	.envato-name {
-		display: block;
-		height: 18px;
-		position: absolute;
-		bottom: 18px;
-		top: 0;
-		width: 20%;
-		font-size: 12px;
-		height: 18px;
-		line-height: 54px;
-		color: white;
-		left: 30px;
-	}
-
-	.envato-name-name {
-		position: absolute;
-		left: 12px;
-		font-size: 24px;
-	}
-	.buy-now {
-		position: absolute;
-		top: 10px;
-	}
-
-	.market-name {
-		color: rgb(4, 205, 4);
-		filter: brightness(150%);
-		position: absolute;
-		font-size: 24px;
-		padding-left: 8px;
+	.right-header-div {
+		display: none;
 	}
 
 	.envato-logo-name {
@@ -130,7 +108,7 @@ html {
 	height: 44px;
 	z-index: 90;
 	position: relative;
-	margin-top: 54px;
+	margin-top: 0px;
 	color: white;
 	background-color: black;
 	display: flex;
@@ -200,7 +178,7 @@ html {
 	color: white;
 	flex: 1;
 	margin-left: -20px;
-	margin-right: 20px;
+	margin-right: 0px;
 }
 .empty {
 	flex: 1;
@@ -215,12 +193,14 @@ html {
 .overlay-picture-div {
 	height: 100%;
 	width: 100%;
+	object-fit: cover;
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 	display: block;
 	visibility: inherit;
 	opacity: 1;
+	overflow: hidden;
 	filter: brightness(40%);
 }
 
@@ -250,7 +230,7 @@ html {
 .head-icons {
 	height: 15px;
 	background-color: rgb(5, 4, 4);
-	margin-left: 4%;
+	margin-left: 1%;
 	margin-right: 6%;
 	transition: background-color 0.5s;
 }
@@ -476,7 +456,7 @@ h1 {
 	}
 	.amiso-div {
 		position: absolute;
-		top: 54px;
+		top: 0;
 		z-index: 20;
 		border-width: 2px;
 		border-style: solid;
@@ -582,8 +562,8 @@ h1 {
 
 .right-div-container {
 	height: 497.219px;
-	width: 40%;
-	padding-left: 70px;
+	width: 40vw;
+	padding-left: 100px;
 	position: relative;
 	margin-right: auto;
 	white-space: nowrap;
@@ -593,8 +573,8 @@ h1 {
 	height: 497.22px;
 	margin-left: auto;
 	position: relative;
-	width: 40%;
-	overflow: hidden;
+	width: 40vw;
+	overflow: visible;
 }
 
 .overall-inner-div {
@@ -812,13 +792,13 @@ h1 {
 }
 
 .left-company-container {
-	margin-left: 7%;
+	margin-left: 4vw;
 	z-index: 30;
 	height: 574px;
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 40%;
+	width: 40vw;
 }
 
 .right-company-container {
@@ -1920,7 +1900,7 @@ h6 {
 	position: absolute;
 	width: 100%;
 	transform: scaleX(0);
-	height: 2px;
+	height: 1px;
 	bottom: 0px;
 	left: 0;
 	background-color: #ff5050db;
@@ -1931,6 +1911,28 @@ h6 {
 #home:hover::after {
 	transform: scaleX(1);
 	transform-origin: bottom left;
+}
+
+#home--- {
+	font-size: 18px;
+	font-family: Monrope;
+	font-weight: 700;
+	color: white;
+	line-height: 30px;
+	position: relative;
+	display: inline-block;
+	margin-right: 44px;
+}
+
+#home---::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	transform: scaleX(1);
+	height: 1px;
+	bottom: 0px;
+	left: 0;
+	background-color: #ff3838;
 }
 
 #pages {
@@ -2782,7 +2784,7 @@ h6 {
 	border-bottom-left-radius: 30px;
 	border-bottom-right-radius: 30px;
 	position: relative;
-	animation: testimo 35s ease-in 5s forwards 1;
+	animation: testimo 100s ease-in 5s forwards 1;
 }
 
 .right-testimonial:hover .first-right-testimonial {
@@ -3381,13 +3383,13 @@ h4 {
 }
 
 .bottom-div {
-	width: 95vw;
+	width: 85vw;
 	height: 293px;
 	position: absolute;
-	left: -8%;
+	left: -2vw;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-	column-gap: 35px;
+	column-gap: 30px;
 	overflow: hidden;
 }
 
@@ -3404,7 +3406,7 @@ h4 {
 	border-width: 2px;
 	border-style: solid;
 	transition: filter 5ms;
-	animation: imagesroll 50s infinite ease 30s forwards;
+	animation: imagesroll 50s infinite ease 10s forwards;
 }
 
 .bottom-images:hover {
@@ -3626,4 +3628,9 @@ h4 {
 		white-space: normal;
 		/* display: none; */
 	}
+}
+
+/* STICKY HEADER */
+.hidden {
+	visibility: hidden;
 }
