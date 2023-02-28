@@ -18,9 +18,44 @@ console.log(window.scrollY);
 window.addEventListener(`scroll`, function (e) {
 	if (window.scrollY > amisocoords.top) {
 		testAmiso.classList.remove(`hidden`);
-	} else testAmiso.classList.add(`hidden`);
+	} else if (window.scrollY < amisocoords.top) testAmiso.classList.add(`hidden`);
 });
 
-buybtn.addEventListener(`click`, function (e) {
-	testAmiso.classList.remove(`hidden`);
+// reveal section
+const allSections = document.querySelectorAll(`.section`);
+const revealSection = function (entries, observer) {
+	const [entry] = entries;
+	if (!entry.isIntersecting) return;
+
+	entry.target.classList.remove(`section--hidden`);
+	observer.unobserve(entry.target);
+};
+
+const sectionObserver = new IntersectionObserver(revealSection, {
+	root: null,
+	threshold: 0.15,
+});
+
+allSections.forEach(function (section) {
+	sectionObserver.observe(section);
+	section.classList.add(`section--hidden`);
+});
+
+const testi = document.querySelectorAll(`.first-right-testimonial`);
+const revealTest = function (entries, observer) {
+	const [entry] = entries;
+	if (!entry.isIntersecting) {
+		entry.target.classList.add(`testimonial-animation`);
+		observer.unobserve(entry.target);
+	}
+};
+
+const testObserver = new IntersectionObserver(revealTest, {
+	root: null,
+	threshold: 0.15,
+});
+
+testi.forEach(function (section) {
+	testObserver.observe(section);
+	section.classList.add(`testimonial-animation`);
 });

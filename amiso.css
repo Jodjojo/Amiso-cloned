@@ -2784,9 +2784,12 @@ h6 {
 	border-bottom-left-radius: 30px;
 	border-bottom-right-radius: 30px;
 	position: relative;
-	animation: testimo 100s ease-in 5s forwards 1;
 }
 
+.testimonial-animation {
+	animation: testimo 30s ease-in 10s forwards 1;
+	animation-play-state: running;
+}
 .right-testimonial:hover .first-right-testimonial {
 	animation-play-state: paused;
 }
@@ -3633,4 +3636,13 @@ h4 {
 /* STICKY HEADER */
 .hidden {
 	visibility: hidden;
+}
+
+.section {
+	opacity: 1;
+	transition: transform 1s, opacity 1s;
+}
+.section--hidden {
+	opacity: 0;
+	/* transform: translateY(8rem); */
 }
